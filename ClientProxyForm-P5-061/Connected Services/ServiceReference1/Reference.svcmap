@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b11ceec1-7eea-404a-8894-f72239bd90ef" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8888/Matematika" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Matematika.xsd" MetadataType="Schema" ID="fa267032-5763-4b8e-9ce0-ab1571d37747" SourceId="1" SourceUrl="http://localhost:8888/Matematika?xsd=xsd0" />
+    <MetadataFile FileName="Matematika.wsdl" MetadataType="Wsdl" ID="fabc8b7a-bcd2-4f91-ae2f-d0e03b477306" SourceId="1" SourceUrl="http://localhost:8888/Matematika?wsdl" />
+    <MetadataFile FileName="Matematika1.xsd" MetadataType="Schema" ID="33a9c343-fa20-4c25-9965-16f65f250828" SourceId="1" SourceUrl="http://localhost:8888/Matematika?xsd=xsd2" />
+    <MetadataFile FileName="Matematika.disco" MetadataType="Disco" ID="4a9a9c0c-7328-4f8e-b07e-23968b649f1e" SourceId="1" SourceUrl="http://localhost:8888/Matematika?disco" />
+    <MetadataFile FileName="Matematika2.xsd" MetadataType="Schema" ID="00974f99-a30f-41b3-ab7a-ecda9ec6d9a9" SourceId="1" SourceUrl="http://localhost:8888/Matematika?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
